@@ -6,7 +6,7 @@ import AppRoutes from './Routes'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/gunjans.github.io'>
+      <BrowserRouter basename='/gunajans.github.io'>
       <CustomNavBar />
       <AppRoutes />
       </BrowserRouter>
