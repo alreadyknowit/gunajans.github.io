@@ -1,0 +1,30 @@
+.slider-container {
+    width: 75vw;
+    max-height: 75vh;
+    margin: auto;
+    /* Center the slider horizontally */
+    overflow: hidden;
+    /* Ensure the content doesn't overflow */
+
+}
+
+.slider-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Ensure the image doesn't overflow the slider */
+}
+
+.slider-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .slider-container {
+        width: 100vw;
+        /* Full-width on mobile */
+        height: 25vh;
+    }
+}

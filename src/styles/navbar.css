@@ -1,0 +1,50 @@
+
+.navbar {
+    background-color: cornflowerblue;
+    align-content: center;
+    margin-bottom: 20px; /* Add margin between navbar and content */
+    background-color: #f5f5f5;
+
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+}
+
+
+/* Add space only to the right of the last button in the list */
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+
+/* Add a hover effect to the "Anasayfa" NavItem */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d4c4c0;
+    /* Change the color of the text on hover */
+    background-color: #798692;
+    /* Change the background color on hover */
+    /* You can also add other styles like border, padding, etc. */
+    border-radius: 10px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    margin-right: 35px;
+    transition: color 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Add a specific style for the selected "Anasayfa" NavItem */
+.navbar-nav .nav-item .nav-link[href="/"] {
+    color: #d4c4c0;
+    /* Change the color of the text for the selected item */
+    background-color: #779cc0;
+    /* Change the background color for the selected item */
+    border-radius: 10px;
+}
