@@ -1,0 +1,11 @@
+.about-component {
+    background-color: #f3f1ee;
+    padding: 20px 100px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.about-component p::before {
+   content: "";
+    margin-left: 40px;
+}

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/alreadyknowit.gunjans.github.io/static/css/main.b69851a5.css",
-    "main.js": "/alreadyknowit.gunjans.github.io/static/js/main.03cff5ea.js",
-    "static/js/787.d9686a32.chunk.js": "/alreadyknowit.gunjans.github.io/static/js/787.d9686a32.chunk.js",
-    "static/media/1.jpg": "/alreadyknowit.gunjans.github.io/static/media/1.aeb987812d109021aa98.jpg",
-    "static/media/slider1.jpg": "/alreadyknowit.gunjans.github.io/static/media/slider1.79388104388c15c72fc7.jpg",
-    "static/media/slider3.jpg": "/alreadyknowit.gunjans.github.io/static/media/slider3.adeabc72417fd5534e27.jpg",
-    "static/media/4.jpg": "/alreadyknowit.gunjans.github.io/static/media/4.71614ead1c2632058319.jpg",
-    "static/media/3.jpg": "/alreadyknowit.gunjans.github.io/static/media/3.5a59c94c6f8272e53083.jpg",
-    "static/media/slider2.jpg": "/alreadyknowit.gunjans.github.io/static/media/slider2.c2c49010c504531c836e.jpg",
-    "static/media/slider4.jpg": "/alreadyknowit.gunjans.github.io/static/media/slider4.1d34b336073d91ca07b8.jpg",
-    "static/media/2.jpg": "/alreadyknowit.gunjans.github.io/static/media/2.db1cb7e99ca941c5f82e.jpg",
-    "static/media/slick.svg": "/alreadyknowit.gunjans.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/alreadyknowit.gunjans.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/alreadyknowit.gunjans.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/alreadyknowit.gunjans.github.io/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/alreadyknowit.gunjans.github.io/index.html",
-    "static/media/logo.svg": "/alreadyknowit.gunjans.github.io/static/media/logo.453d7b29d01c28cbe858893d2f2a48b7.svg",
-    "main.b69851a5.css.map": "/alreadyknowit.gunjans.github.io/static/css/main.b69851a5.css.map",
-    "main.03cff5ea.js.map": "/alreadyknowit.gunjans.github.io/static/js/main.03cff5ea.js.map",
-    "787.d9686a32.chunk.js.map": "/alreadyknowit.gunjans.github.io/static/js/787.d9686a32.chunk.js.map"
+    "main.css": "/gunajans.github.io/static/css/main.905b01f9.css",
+    "main.js": "/gunajans.github.io/static/js/main.30cd4b5d.js",
+    "static/js/787.d9686a32.chunk.js": "/gunajans.github.io/static/js/787.d9686a32.chunk.js",
+    "static/media/1.jpg": "/gunajans.github.io/static/media/1.aeb987812d109021aa98.jpg",
+    "static/media/slider1.jpg": "/gunajans.github.io/static/media/slider1.79388104388c15c72fc7.jpg",
+    "static/media/slider3.jpg": "/gunajans.github.io/static/media/slider3.adeabc72417fd5534e27.jpg",
+    "static/media/4.jpg": "/gunajans.github.io/static/media/4.71614ead1c2632058319.jpg",
+    "static/media/3.jpg": "/gunajans.github.io/static/media/3.5a59c94c6f8272e53083.jpg",
+    "static/media/slider2.jpg": "/gunajans.github.io/static/media/slider2.c2c49010c504531c836e.jpg",
+    "static/media/slider4.jpg": "/gunajans.github.io/static/media/slider4.1d34b336073d91ca07b8.jpg",
+    "static/media/2.jpg": "/gunajans.github.io/static/media/2.db1cb7e99ca941c5f82e.jpg",
+    "static/media/slick.svg": "/gunajans.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/gunajans.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/gunajans.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/gunajans.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/gunajans.github.io/index.html",
+    "static/media/logo.svg": "/gunajans.github.io/static/media/logo.453d7b29d01c28cbe858893d2f2a48b7.svg",
+    "main.905b01f9.css.map": "/gunajans.github.io/static/css/main.905b01f9.css.map",
+    "main.30cd4b5d.js.map": "/gunajans.github.io/static/js/main.30cd4b5d.js.map",
+    "787.d9686a32.chunk.js.map": "/gunajans.github.io/static/js/787.d9686a32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b69851a5.css",
-    "static/js/main.03cff5ea.js"
+    "static/css/main.905b01f9.css",
+    "static/js/main.30cd4b5d.js"
   ]
 }

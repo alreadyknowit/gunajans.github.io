@@ -1,0 +1,82 @@
+.about-summary-container {
+    position: relative;
+    background-color: #f3f1ee;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.about-col {
+    width: 100%;
+    text-align: center;
+}
+
+.about-summary-image-col img {
+    width: 80%;
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about-summary-list-col ul {
+    padding: 0;
+}
+
+.about-summary-list-col li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-summary-list-col li::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 30px solid #cb0006;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.about-summary-text-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-summary-text {
+   text-align: start;
+}
+
+.about-summary-list-col ul li span {
+    font-size: 20px;
+    text-align: start;
+}
+
+.custom-button {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-summary-container .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-col {
+        margin-bottom: 20px; /* Add margin to create space between stacked columns */
+    }
+
+    .about-summary-list-col ul li span {
+        font-size: 15px;
+        text-align: start;
+    }
+}
+

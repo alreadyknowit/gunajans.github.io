@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Navbar, NavbarBrand, Nav, NavItem, NavbarToggler, Collapse } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import logo from '../images/logo.svg'
+import logo from '../images/logo.png'
 import '../styles/navbar.css'
-function CustomNavBar(args) {
+function CustomNavbar(args) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -21,13 +21,13 @@ function CustomNavBar(args) {
                             <Link to="/" className="nav-link">Anasayfa</Link>
                         </NavItem>
                         <NavItem>
+                            <Link to="/services" className="nav-link">Hizmetler</Link>
+                        </NavItem>
+                        <NavItem>
                             <Link to="/about" className="nav-link"> Hakkımızda</Link>
                         </NavItem>
                         <NavItem>
                             <Link to="/references" className="nav-link">Referanslar</Link>
-                        </NavItem>
-                        <NavItem>
-                            <Link to="/services" className="nav-link">Hizmetler</Link>
                         </NavItem>
                         <NavItem>
                             <Link to="/contact" className="nav-link">İletişim</Link>
@@ -39,4 +39,4 @@ function CustomNavBar(args) {
     );
 }
 
-export default CustomNavBar;
+export default CustomNavbar;

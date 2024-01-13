@@ -1,0 +1,133 @@
+.service-summary-container {
+    position: relative;
+    background-color: #f3f1ee;
+    margin-top: 30px;
+    height: 60vh;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-summary-container p, h5, h3 {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.service-summary-container .service-summary-image {
+    display: block;
+    border-radius: 20px;
+    min-width: 200px; /* Set your minimum width */
+    max-width: 400px; /* Set your maximum width */
+    width: 100%; /* Set the width to 100% of its container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: fill;
+}
+
+.service-summary-image-col,
+.service-summary-text-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.service-summary-text-col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.service-summary-text-col .service-summary-text {
+    text-align: start;
+}
+
+.service-summary-container.even .service-summary-text-col {
+    order: 1;
+}
+
+.service-summary-container.even .service-summary-image-col {
+    order: 2;
+}
+
+.service-summary-container.odd .service-summary-text-col {
+    order: 2;
+}
+
+.service-summary-container.odd .service-summary-image-col {
+    order: 1;
+}
+.service-general{
+    background-color: #f3f1ee;
+    border-radius: 20px;
+}
+.service-general p, ul, li{
+    margin-left: 15px;
+    font-size: 20px;
+
+}
+
+.service-general .row .feature-list{
+    max-width: 40%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:20px;
+}
+.service-general .row .feature-list span{
+    font-weight: bold;
+    display: inline-block;
+}
+.service-general p::before {
+    content:"";
+    margin:20px;
+}
+.service-general .row .feature-list span::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 30px solid #cb0006;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.service-general img{
+    max-width: 25vw;
+    border-radius: 20px;
+    float: right;
+    margin: 20px;
+
+}
+
+@media (max-width: 767px) {
+    .service-summary-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .service-summary-container .service-summary-image-col,
+    .service-summary-container .service-summary-text-col {
+        padding: 20px; /* Adjust padding for better spacing on mobile */
+    }
+
+    /* Explicitly set order for mobile layout */
+    .service-summary-container.odd .service-summary-image-col,
+    .service-summary-container.even .service-summary-image-col {
+        order: 1;
+    }
+
+    .service-summary-container.odd .service-summary-text-col,
+    .service-summary-container.even .service-summary-text-col {
+        order: 2;
+    }
+
+    .service-summary-container.odd .service-summary-text-col,
+    .service-summary-container.even .service-summary-text-col {
+        text-align: center; /* Center-align text on mobile */
+    }
+}
+

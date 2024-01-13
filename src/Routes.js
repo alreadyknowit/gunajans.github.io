@@ -10,7 +10,7 @@ import References from './pages/References';
 
 const AppRoutes = () => (
     <Routes >
-        <Route exact path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
