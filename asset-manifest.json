@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/gunajans.github.io/static/css/main.905b01f9.css",
-    "main.js": "/gunajans.github.io/static/js/main.30cd4b5d.js",
+    "main.css": "/gunajans.github.io/static/css/main.0a63a4a3.css",
+    "main.js": "/gunajans.github.io/static/js/main.4e2a364b.js",
     "static/js/787.d9686a32.chunk.js": "/gunajans.github.io/static/js/787.d9686a32.chunk.js",
-    "static/media/1.jpg": "/gunajans.github.io/static/media/1.aeb987812d109021aa98.jpg",
-    "static/media/slider1.jpg": "/gunajans.github.io/static/media/slider1.79388104388c15c72fc7.jpg",
-    "static/media/slider3.jpg": "/gunajans.github.io/static/media/slider3.adeabc72417fd5534e27.jpg",
-    "static/media/4.jpg": "/gunajans.github.io/static/media/4.71614ead1c2632058319.jpg",
-    "static/media/3.jpg": "/gunajans.github.io/static/media/3.5a59c94c6f8272e53083.jpg",
-    "static/media/slider2.jpg": "/gunajans.github.io/static/media/slider2.c2c49010c504531c836e.jpg",
-    "static/media/slider4.jpg": "/gunajans.github.io/static/media/slider4.1d34b336073d91ca07b8.jpg",
-    "static/media/2.jpg": "/gunajans.github.io/static/media/2.db1cb7e99ca941c5f82e.jpg",
-    "static/media/slick.svg": "/gunajans.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/gunajans.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/gunajans.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/gunajans.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/ga4.png": "/gunajans.github.io/static/media/ga4.cfcdc2b4f553366b86e8.png",
+    "static/media/seo.png": "/gunajans.github.io/static/media/seo.141e206111ce33108b1a.png",
+    "static/media/socialmedia.png": "/gunajans.github.io/static/media/socialmedia.6245d8c8fbe86b01e415.png",
+    "static/media/performans.png": "/gunajans.github.io/static/media/performans.a6fa67565bb53092df2c.png",
+    "static/media/logo.png": "/gunajans.github.io/static/media/logo.f206cc9b002dcd9da4f8.png",
+    "static/media/services.png": "/gunajans.github.io/static/media/services.050d55c867e20295933e.png",
+    "static/media/contact.jpg": "/gunajans.github.io/static/media/contact.3eb33bd71d22402d5670.jpg",
+    "static/media/360.jpg": "/gunajans.github.io/static/media/360.08e6525f3de759ccd76f.jpg",
+    "static/media/image4.jpg": "/gunajans.github.io/static/media/image4.ed3192c920f3106c4356.jpg",
+    "static/media/contactus2.jpg": "/gunajans.github.io/static/media/contactus2.22de5ab4a3b49d641965.jpg",
+    "static/media/logo-body.jpg": "/gunajans.github.io/static/media/logo-body.d97c54e201942a4d09fc.jpg",
     "index.html": "/gunajans.github.io/index.html",
-    "static/media/logo.svg": "/gunajans.github.io/static/media/logo.453d7b29d01c28cbe858893d2f2a48b7.svg",
-    "main.905b01f9.css.map": "/gunajans.github.io/static/css/main.905b01f9.css.map",
-    "main.30cd4b5d.js.map": "/gunajans.github.io/static/js/main.30cd4b5d.js.map",
+    "main.0a63a4a3.css.map": "/gunajans.github.io/static/css/main.0a63a4a3.css.map",
+    "main.4e2a364b.js.map": "/gunajans.github.io/static/js/main.4e2a364b.js.map",
     "787.d9686a32.chunk.js.map": "/gunajans.github.io/static/js/787.d9686a32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.905b01f9.css",
-    "static/js/main.30cd4b5d.js"
+    "static/css/main.0a63a4a3.css",
+    "static/js/main.4e2a364b.js"
   ]
 }
