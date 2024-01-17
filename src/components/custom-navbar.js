@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import { Navbar, NavbarBrand, Nav, NavItem, NavbarToggler, Collapse } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import logo from '../images/logo.png'
-import '../styles/navbar.css'
+import React, {useState} from 'react';
+import {Navbar, NavbarBrand, Nav, NavItem, NavbarToggler, Collapse} from 'reactstrap';
+import {Link} from 'react-router-dom';
+import logo from '../images/logo.png';
+import '../styles/navbar.css';
+
 function CustomNavbar(args) {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -10,11 +11,11 @@ function CustomNavbar(args) {
 
     return (
         <div>
-            <Navbar {...args} expand="md" >
+            <Navbar {...args} expand="md" className={isOpen ? 'navbar-open' : ''}>
                 <NavbarBrand href="/">
-                    <img alt='Logo' className='logo' src={logo} ></img>
+                    <img alt='Logo' className='logo' src={logo}></img>
                 </NavbarBrand>
-                <NavbarToggler onClick={toggle} />
+                <NavbarToggler onClick={toggle}/>
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mx-auto justify-content-center" navbar>
                         <NavItem>
@@ -29,8 +30,8 @@ function CustomNavbar(args) {
                         <NavItem>
                             <Link to="/references" className="nav-link">Referanslar</Link>
                         </NavItem>
-                        <NavItem>
-                            <Link to="/contact" className="nav-link">İletişim</Link>
+                        <NavItem className="navbar-contact">
+                            <Link to="/contact" className="contact-nav nav-link">İletişim</Link>
                         </NavItem>
                     </Nav>
                 </Collapse>
