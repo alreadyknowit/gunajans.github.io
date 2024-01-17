@@ -29,7 +29,7 @@ const SliderComponent = () => {
         if(element !== null ){
             const text = element.getAttribute('data-text');
             if (text !== null && text !== undefined) {
-                const speed = 70;
+                const speed = 60;
                 let i = 0;
 
                 function typeWriterRecursive() {

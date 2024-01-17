@@ -85,6 +85,9 @@ form button {
     align-items: center;
     border-radius: 8px;
 }
+form button:disabled{
+    background-color: #f17578;
+}
 
 form button:hover {
     background-color: rgba(203, 0, 6, 0.65);

@@ -1,9 +1,14 @@
 // ContactForm.js
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import '../styles/contact-form.css';
 import contactImage from '../images/contactus2.jpg'
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+
+    const form = useRef();
+    const [isButtonDisabled, setIsButtonDisabled] = useState(false);
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -36,13 +41,33 @@ const ContactForm = () => {
         return Object.keys(newErrors).length === 0;
     };
 
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
         if (validateForm()) {
-            // Handle form submission logic (e.g., send email)
-            console.log(formData);
+            setIsButtonDisabled(true)
+            emailjs.sendForm(
+                'service_fv1mkqp',
+                'template_daq8px8',
+                form.current,
+                'yEal8USadgdwR6kBB')
+                .then((result) => {
+                    console.log(result.text);
+                    setIsButtonDisabled(false);
+                    setFormData({
+                        name: '',
+                        email: '',
+                        message: '',
+                    });
+                }, (error) => {
+                    console.log(error.text);
+
+                    setIsButtonDisabled(false);
+
+                });
         }
+
     };
 
     return (
@@ -51,49 +76,49 @@ const ContactForm = () => {
                 <img className="summary-image" src={contactImage} alt="Contact image"/>
 
             </div>
-           <div className="contact-form-wrapper">
-               <h5>BİZİMLE İLETİŞİME GEÇİN</h5>
-               <form onSubmit={handleSubmit} className="contact-form">
-                   <div className="form-group">
-                       <label htmlFor="name">Ad Soyad:</label>
-                       <input
-                           type="text"
-                           id="name"
-                           name="name"
-                           placeholder="Ad Soyad"
-                           value={formData.name}
-                           onChange={handleChange}
-                       />
-                       {errors.name && <p className="error">{errors.name}</p>}
-                   </div>
-                   <div className="form-group">
-                       <label htmlFor="email">Email:</label>
-                       <input
-                           type="email"
-                           id="email"
-                           name="email"
-                           placeholder="example@email.com"
-                           value={formData.email}
-                           onChange={handleChange}
-                       />
-                       {errors.email && <p className="error">{errors.email}</p>}
-                   </div>
-                   <div className="form-group">
-                       <label htmlFor="message">Mesaj:</label>
-                       <textarea
-                           id="message"
-                           name="message"
-                           rows="4"
-                           placeholder="Mesaj"
-                           value={formData.message}
-                           onChange={handleChange}
-                       />
-                       {errors.message && <p className="error">{errors.message}</p>}
-                   </div>
-                   <button className="form-group" type="submit">Gönder</button>
+            <div className="contact-form-wrapper">
+                <h5>BİZİMLE İLETİŞİME GEÇİN</h5>
+                <form ref={form} onSubmit={handleSubmit} className="contact-form">
+                    <div className="form-group">
+                        <label htmlFor="name">Ad Soyad:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Ad Soyad"
+                            value={formData.name}
+                            onChange={handleChange}
+                        />
+                        {errors.name && <p className="error">{errors.name}</p>}
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            value={formData.email}
+                            onChange={handleChange}
+                        />
+                        {errors.email && <p className="error">{errors.email}</p>}
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Mesaj:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Mesaj"
+                            value={formData.message}
+                            onChange={handleChange}
+                        />
+                        {errors.message && <p className="error">{errors.message}</p>}
+                    </div>
+                    <button disabled={isButtonDisabled} className="form-group" type="submit">Gönder</button>
 
-               </form>
-           </div>
+                </form>
+            </div>
 
         </div>
     );

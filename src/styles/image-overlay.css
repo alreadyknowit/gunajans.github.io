@@ -1,0 +1,49 @@
+.image-overlay-container {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.image-overlay-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-overlay-container .overlay {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    background-color: #cb0006;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-overlay-container:hover .overlay {
+    opacity: 0.4;
+}
+
+.icons-container {
+    display: flex; /* Display icons horizontally */
+    gap: 20px; /* Adjust the gap between icons */
+}
+
+.overlay .icon {
+    font-weight: bold;
+    color: white;
+    font-size: 30px; /* Increased font size */
+    text-align: center;
+    transition: background-size 0.3s ease; /* Add transition for background size */
+}
+
+.fa:hover {
+    color: black;
+}
