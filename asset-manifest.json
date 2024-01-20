@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/gunajans.github.io/static/css/main.0a63a4a3.css",
-    "main.js": "/gunajans.github.io/static/js/main.4e2a364b.js",
+    "main.css": "/gunajans.github.io/static/css/main.42768a47.css",
+    "main.js": "/gunajans.github.io/static/js/main.f47efb67.js",
     "static/js/787.d9686a32.chunk.js": "/gunajans.github.io/static/js/787.d9686a32.chunk.js",
     "static/media/ga4.png": "/gunajans.github.io/static/media/ga4.cfcdc2b4f553366b86e8.png",
     "static/media/seo.png": "/gunajans.github.io/static/media/seo.141e206111ce33108b1a.png",
     "static/media/socialmedia.png": "/gunajans.github.io/static/media/socialmedia.6245d8c8fbe86b01e415.png",
     "static/media/performans.png": "/gunajans.github.io/static/media/performans.a6fa67565bb53092df2c.png",
-    "static/media/logo.png": "/gunajans.github.io/static/media/logo.f206cc9b002dcd9da4f8.png",
     "static/media/services.png": "/gunajans.github.io/static/media/services.050d55c867e20295933e.png",
+    "static/media/muvajans.svg": "/gunajans.github.io/static/media/muvajans.582af33151339377f3ad566b7efb0b6f.svg",
     "static/media/contact.jpg": "/gunajans.github.io/static/media/contact.3eb33bd71d22402d5670.jpg",
     "static/media/360.jpg": "/gunajans.github.io/static/media/360.08e6525f3de759ccd76f.jpg",
     "static/media/image4.jpg": "/gunajans.github.io/static/media/image4.ed3192c920f3106c4356.jpg",
     "static/media/contactus2.jpg": "/gunajans.github.io/static/media/contactus2.22de5ab4a3b49d641965.jpg",
     "static/media/logo-body.jpg": "/gunajans.github.io/static/media/logo-body.d97c54e201942a4d09fc.jpg",
     "index.html": "/gunajans.github.io/index.html",
-    "main.0a63a4a3.css.map": "/gunajans.github.io/static/css/main.0a63a4a3.css.map",
-    "main.4e2a364b.js.map": "/gunajans.github.io/static/js/main.4e2a364b.js.map",
+    "main.42768a47.css.map": "/gunajans.github.io/static/css/main.42768a47.css.map",
+    "main.f47efb67.js.map": "/gunajans.github.io/static/js/main.f47efb67.js.map",
     "787.d9686a32.chunk.js.map": "/gunajans.github.io/static/js/787.d9686a32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a63a4a3.css",
-    "static/js/main.4e2a364b.js"
+    "static/css/main.42768a47.css",
+    "static/js/main.f47efb67.js"
   ]
 }
