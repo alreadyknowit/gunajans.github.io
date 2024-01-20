@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: start;
     height: 100px;
+    margin-bottom: 100px;
 }
 
 .arrow-down {
@@ -45,7 +46,6 @@
     width: 20px;
     animation: arrowUpDown 3s infinite ease;
     margin-bottom: 100px;
-
 }
 
 @keyframes arrowUpDown {

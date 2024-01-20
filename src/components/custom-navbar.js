@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Navbar, NavbarBrand, Nav, NavItem, NavbarToggler, Collapse} from 'reactstrap';
 import {Link} from 'react-router-dom';
-import logo from '../images/logo.png';
+import logo from '../images/muvajans.svg';
 import '../styles/navbar.css';
 
 function CustomNavbar(args) {

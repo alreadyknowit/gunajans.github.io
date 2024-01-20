@@ -12,7 +12,7 @@
 
 
 .navbar-nav {
-    margin: 0 auto; /* Center the nav items horizontally */
+    margin: 0 auto;
 }
 
 
@@ -29,26 +29,32 @@
 
 .navbar-collapse {
     width: 100%;
-    margin-top: 5px; /* Add space between navbar and content */
+    margin-top: 5px;
 }
 .contact-nav{
     color:white;
     text-align: center;
+    width: 100%;
 }
 
 .navbar-contact{
     background-color: #cb0006;
     border-radius:10px;
 }
+
+.navbar-contact:hover{
+    background-color: orange;
+
+}
 /* Responsive adjustments */
 @media (max-width: 767px) {
     .navbar-nav {
-        text-align: center; /* Center the nav items vertically */
+        text-align: center;
     }
 
     .navbar-nav .nav-item .nav-link {
         margin-right: 0;
-        margin-bottom: 10px; /* Add space between collapsed nav items */
+        margin-bottom: 10px;
     }
 }
 
